@@ -5,10 +5,10 @@ node_modules/
 dist/
 build/
 
-# production
+# local vercel folder
 .vercel/
 
-# misc
+# misc system files
 .DS_Store
 Thumbs.db
 
@@ -18,7 +18,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# editor directories and files
+# editor files
 .vscode/
 .idea/
 *.suo
@@ -28,7 +28,7 @@ pnpm-debug.log*
 *.sw?
 *.iml
 
-# environment variables
+# environment variables (never commit secrets)
 .env
 .env.local
 .env.development.local
